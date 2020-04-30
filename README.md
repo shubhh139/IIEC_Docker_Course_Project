@@ -9,22 +9,22 @@ And one session was introductory. After successfully
 completing the course I implemented the knowledge of that
 training by creating this project. 
  
-##1.Description about the Project
+## 1.Description about the Project
  My project is basically upon deployment of a website/webapp
 in one click. It consists of a website on which anybody can
 blog and everybody connected to the same server can see the 
 the blog of that person
-*Used javascript for the blog
-*Used for MySQL for database management
-*Used nextcloud for web applications
+* Used javascript for the blog
+* Used for MySQL for database management
+* Used nextcloud for web applications
 
-##2.Pre-requisites for the system
-*RHEL 8 should be installed in your system
-*Any OS can be used
-*Must have **Docker** software installed in your system
-*Should be known to some basic linux commands for ease of operation
-*Use `systemctl stop firewalld`
-*Use `systemctl start Docker` for starting Docker services in your system
+## 2.Pre-requisites for the system
+* RHEL 8 should be installed in your system
+* Any OS can be used
+* Must have **Docker** software installed in your system
+* Should be known to some basic linux commands for ease of operation
+* Use `systemctl stop firewalld`
+* Use `systemctl start Docker` for starting Docker services in your system
 
 ## 3.For the images in the project:
 * Pulling MySQL Image:
@@ -34,7 +34,7 @@ the blog of that person
  already preconfigured.
 
 
-
+Ggh
 
 
 
