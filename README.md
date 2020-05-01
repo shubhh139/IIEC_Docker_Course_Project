@@ -45,10 +45,10 @@ and through their you can have a check on your MySQL database
 Every version has a different form of syntax
 ## services: 
 During starting the compose file, use the term services to check the specific things that runs
-##docker_volume:
+## Docker_volume:
 **docker volume** is used to make the data permanent because in docker when we terminate a container then whole data gets vanished inside that container
 `docker create volume [volume name]`
-##Depends_on: 
+## Depends_on: 
 We use **depends_on** because nextcloud uses MySQL database server for storing the data
 
 ## 6.Docker_Compose_Up:
@@ -59,7 +59,7 @@ We use **depends_on** because nextcloud uses MySQL database server for storing t
 * Use `docker-compose down` command for stopping the containers
 
 
-##Great Regards to my mentor Vimal Daga Sir for completion of this project
+## Great Regards to my mentor Vimal Daga Sir for completion of this project
 
 
 
