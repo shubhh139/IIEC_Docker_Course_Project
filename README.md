@@ -42,7 +42,8 @@ and through their you can have a check on your MySQL database
 
 * You can create and edit this file using vim editor. For that use `vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**
 
-## version: Every version has a different form of syntax
+## version: 
+Every version has a different form of syntax
 ## services: 
 
 
