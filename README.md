@@ -41,13 +41,25 @@ and through their you can have a check on your MySQL database
 * Before using Docker-Compose you should install the software. For reference go to this website : https://docs.docker.com/compose/install/
 
 * You can create and edit this file using vim editor. For that use `vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**
-
 ## version: 
 Every version has a different form of syntax
 ## services: 
+During starting the compose file, use the term services to check the specific things that runs
+##docker_volume:
+**docker volume** is used to make the data permanent because in docker when we terminate a container then whole data gets vanished inside that container
+`docker create volume [volume name]`
+##Depends_on: 
+We use **depends_on** because nextcloud uses MySQL database server for storing the data
+
+## 6.Docker_Compose_Up:
+* Complete the setup using 'docker-compose up`
+* After that use `docker-compose start`
+
+## 7. Use of Docker_Compose_Down command
+* Use `docker-compose down` command for stopping the containers
 
 
-
+##Great Regards to my mentor Vimal Daga Sir for completion of this project
 
 
 
