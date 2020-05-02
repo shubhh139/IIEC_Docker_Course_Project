@@ -16,7 +16,9 @@ blog and everybody connected to the same server can see the
 the blog of that person
 * Used javascript for the blog
 * Used for MySQL for database management
-* Used ghost os for web applications
+* Used Ghost for web applications
+* Ghost is a free and open source blogging platform written in JavaScript
+100M+
 
 ## 2.Pre-requisites for the system:
 * RHEL 8 should be installed in your system
@@ -30,7 +32,7 @@ the blog of that person
 * Pulling MySQL Image:
   * For downloading the **mysql version 5.6** image, apply this code `docker pull mysql:5.6` for using this as a database server.
 * Pulling ghost os Image:
-  * For downloading the **ghost os** Image, apply this code `docker pull ghost:1-alpine `  in which apache server is
+  * For downloading the **ghost** Image, apply this code `docker pull ghost:1-alpine `  in which apache server is
  already preconfigured.
 
 ## 4. For MySQL:
