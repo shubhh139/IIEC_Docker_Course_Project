@@ -16,7 +16,7 @@ blog and everybody connected to the same server can see the
 the blog of that person
 * Used javascript for the blog
 * Used for MySQL for database management
-* Used nextcloud for web applications
+* Used ghost os for web applications
 
 ## 2.Pre-requisites for the system:
 * RHEL 8 should be installed in your system
@@ -29,8 +29,8 @@ the blog of that person
 ## 3.For the images in the project:
 * Pulling MySQL Image:
   * For downloading the **mysql version 5.6** image, apply this code `docker pull mysql:5.6` for using this as a database server.
-* Pulling nextcloud Image:
-  *For downloading the **nextcloud** Image, apply this code `docker pull nextcloud:18.0.4-apache`  in which apache server is
+* Pulling ghost os Image:
+  * For downloading the **ghost os** Image, apply this code `docker pull ghost:1-alpine `  in which apache server is
  already preconfigured.
 
 ## 4. For MySQL:
